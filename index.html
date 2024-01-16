@@ -1,0 +1,501 @@
+ <!--DOCTYPE html-->
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--==title========================-->
+        <title>Medical Website HTML</title>
+        <!--==Fav-icon=====================-->
+        <link rel="shortcut icon" href="images/fav-icon.png">
+        <!--==CSS==========================-->
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <!--==Font-Awesome-for-icons=====-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+        <!-- Link Swiper's CSS -->
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+        />
+    
+    </head>
+    <body>
+        
+        <!--==Hero-Section========================-->
+        <section id="hero">
+    
+            <!--==navigation====================-->
+            <nav class="navigation">
+                <!--**menu-btn*****-->
+                <input type="checkbox" class="menu-btn" id="menu-btn">
+                <label for="menu-btn" class="menu-icon">
+                    <span class="nav-icon"></span>
+                </label>
+                <!--**logo*********-->
+                <a href="#" class="logo"> <img src="./Images/heartbeat.gif" alt="MediTech Logo" class="w-16 h-16 p-2 bg-gray rounded-full">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                  </img></a>
+                <a href="index.html" class="logo"><span>Medi</span>Tech</a>
+                <!--**menu*********-->
+                <ul class="menu">
+                    <li><a href="#our-team">Find A Doctor</a></li>
+                    <li><a href="#our-services">Our Services</a></li>
+                    <li><a href="./Billcode/main.html">BillCode</a></li>
+                </ul>
+                <!--**contact*******-->
+       
+            </nav><!--nav-end-->
+    
+
+    
+            
+        </section><!--hero-end-->
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+                <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">"Empower your wellness journey with the click of a button! Elevate your health from the comfort of your home
+                    your well-being delivered to your doorstep". 
+                </h1>
+                <a href="cart.html"><button class="flex-shrink-0 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0">Buy Products</button></a>
+              </div>
+            </div>
+          </section>
+
+
+        <!--==service-info===========================-->
+        <section class="what-we-provide">
+    
+            <!--**box1***********-->
+            <div class="w-info-box w-i-box1">
+                <!--icon-->
+                <div class="w-info-icon">
+                    <i class="fa-solid fa-capsules"></i>
+                </div>
+                <!--text-->
+                <div class="w-info-text">
+                    <strong>Specialised Service</strong>
+                    <p>Lorem ipsum dolor sit </p>
+                </div>
+            </div>
+            <!--**box2***********-->
+            <div class="w-info-box w-i-box2">
+                <!--icon-->
+                <div class="w-info-icon">
+                    <i class="fa-regular fa-comments"></i>
+                </div>
+                <!--text-->
+                <div class="w-info-text">
+                    <strong>24/7 Advanced Care</strong>
+                    <p>Lorem ipsum dolor sit </p>
+                </div>
+            </div>
+            <!--**box3***********-->
+            <div class="w-info-box w-i-box3">
+                <!--icon-->
+                <div class="w-info-icon">
+                    <i class="fa-solid fa-square-poll-horizontal"></i>
+                </div>
+                <!--text-->
+                <div class="w-info-text">
+                    <strong>Get Result Online</strong>
+                    <p>Lorem ipsum dolor sit </p>
+                </div>
+            </div>
+        
+        </section><!--end-->
+    
+    
+
+    
+        
+    
+        <!--==Our-Services======================-->
+        <section id="our-services">
+    
+            <!--**heading********************-->
+            <div class="services-heading">
+                <!--text-->
+                <div class="services-heading-text">
+                    <strong>Our Services</strong>
+                    <h2>High Quality Services For You</h2>
+                </div>
+                <!--btns-->
+                <div class="service-slide-btns">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+    
+            <!--**container*******************-->
+            <div class="services-box-container">
+    
+                 <!-- Swiper -->
+                <div class="swiper mySwiperservices">
+                    <div class="swiper-wrapper">
+                        <!--**1*******-->
+                        <div class="swiper-slide">
+                        <!--**box1**-->
+                        <div class="service-box s-box1">
+                            <!--icon-->
+                            <i class="fa-solid fa-tooth"></i>
+                            <!--title-->
+                            <strong>Dental Care</strong>
+                            <!--details-->
+                            <p>"Where we make cavities disappear and your smile reappear."</p>
+                            <!--read more-->
+                            <a href="#">Read More</a>
+                        </div>
+                        </div><!--slide-end-->
+                        <!--**1*******-->
+                        <div class="swiper-slide">
+                        <!--**box1**-->
+                        <div class="service-box s-box2">
+                            <!--icon-->
+                            <i class="fa-solid fa-eye"></i>
+                            <!--title-->
+                            <strong>Eye Care</strong>
+                            <!--details-->
+                            <p>"Bringing clarity to your world, one blink at a time."</p>
+                            <!--read more-->
+                            <a href="#">Read More</a>
+                        </div>
+                        </div><!--slide-end-->
+                        <!--**1*******-->
+                        <div class="swiper-slide">
+                        <!--**box1**-->
+                        <div class="service-box s-box3">
+                            <!--icon-->
+                            <i class="fa-solid fa-face-smile"></i>
+                            <!--title-->
+                            <strong>Skin Care</strong>
+                            <!--details-->
+                            <p>"Where every blink is a step toward a brighter, clearer future."</p>
+                            <!--read more-->
+                            <a href="#">Read More</a>
+                        </div>
+                        </div><!--slide-end-->
+                        <!--**1*******-->
+                        <div class="swiper-slide">
+                        <!--**box1**-->
+                        <div class="service-box s-box4">
+                            <!--icon-->
+                            <i class="fa-solid fa-user-doctor"></i>
+                            <!--title-->
+                            <strong>Surgical</strong>
+                            <!--details-->
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem ullam perspiciatis impedit consequuntur</p>
+                            <!--read more-->
+                            <a href="#">Read More</a>
+                        </div>
+                        </div><!--slide-end-->
+                    </div><!--wrapper-end-->
+                </div><!--swiper-end-->
+    
+            </div>
+    
+            <!--btn-->
+            <span class="service-btn">Contact Us For Need Any Help And Services <a href="#">Let's get Started</a></span>
+        
+        </section><!--services-end-->
+    
+    
+        <!--==Why-choose-us=======================-->
+        <section id="why-choose-us">
+    
+            <!--**left*****************-->
+            <div class="why-choose-us-left">
+                <h3>Why Choose Us?</h3>
+                <!--==container====-->
+                <div class="why-choose-box-container">
+                    <!--**box**-->
+                    <div class="why-choose-box">
+                        <!--icon-->
+                        <i class="fa-solid fa-check"></i>
+                        <!--text-->
+                        <div class="why-choose-box-text">
+                            <strong>Advance Care</strong>
+                            <p>Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                    <!--**box**-->
+                    <div class="why-choose-box">
+                        <!--icon-->
+                        <i class="fa-solid fa-check"></i>
+                        <!--text-->
+                        <div class="why-choose-box-text">
+                            <strong>Online Medicine</strong>
+                            <p>Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                    <!--**box**-->
+                    <div class="why-choose-box">
+                        <!--icon-->
+                        <i class="fa-solid fa-check"></i>
+                        <!--text-->
+                        <div class="why-choose-box-text">
+                            <strong>Medical & Surgical</strong>
+                            <p>Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                    <!--**box**-->
+                    <div class="why-choose-box">
+                        <!--icon-->
+                        <i class="fa-solid fa-check"></i>
+                        <!--text-->
+                        <div class="why-choose-box-text">
+                            <strong>Lab Test's</strong>
+                            <p>Lorem ipsum dolor sit</p>
+                        </div>
+                    </div>
+                </div>
+                <!--==btn========-->
+                <a href="#" class="why-choose-us-btn">Make Appointment</a>
+            </div><!--left-end-->
+    
+            <!--**right*******************-->
+            <div class="why-choose-us-right">
+                <h3>Emergency?<br/>
+                    Contact Us
+                </h3>
+                <p>"Need a lifeline? Reach out and let's turn your questions into answers faster than your favorite superhero can save the day! Contact us now and let the conversation begin."</p>
+                <!--==container====-->
+                <div class="w-right-contact-container">
+                    <!--**box**-->
+                    <div class="w-right-contact-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <!--text-->
+                        <div class="w-right-contact-box-text">
+                            <span>Call Us Now</span>
+                            <strong>+53 32576 26346</strong>
+                        </div>
+                    </div>
+                    <!--**box**-->
+                    <div class="w-right-contact-box">
+                        <i class="fa-solid fa-envelope"></i>
+                        <!--text-->
+                        <div class="w-right-contact-box-text">
+                            <span>Mail Us</span>
+                            <strong>Meditech@example.com</strong>
+                        </div>
+                    </div>
+                </div>
+            </div><!--right-end-->
+    
+        </section><!--end-->
+    
+    
+    
+        <!--==Team===========================-->
+        <section id="our-team">
+    
+            <!--**heading*****************-->
+            <div class="our-team-heading">
+                <h3>Meet Our Specialist</h3>
+                <p>Get the accurate prescriptions and Advices</p>
+            </div>
+    
+            <!--**team-container***********-->
+            <div class="team-box-container">
+                <!-- Swiper -->
+                <div class="swiper mySwiperteam">
+                <div class="swiper-wrapper">
+                    <!--**1***-->
+                    <div class="swiper-slide">
+                        <!--**box**-->
+                        <div class="team-box">
+                            <!--img-->
+                            <div class="team-img">
+                                <img alt="" src="images/a.jpg">
+                            </div>
+                            <!--text-->
+                            <div class="team-text">
+                                <strong>Dr.Bhuvnesh Verma</strong>
+                                <span>Dermatologist</span>
+                            </div>
+                        </div>
+                    </div><!--end-slide-->
+                    <!--**1***-->
+                    <div class="swiper-slide">
+                        <!--**box**-->
+                        <div class="team-box">
+                            <!--img-->
+                            <div class="team-img">
+                                <img alt="" src="images/b.jpg">
+                            </div>
+                            <!--text-->
+                            <div class="team-text">
+                                <strong>Dr. Abhay Mishra</strong>
+                                <span>Cardiologist</span>
+                            </div>
+                        </div>
+                    </div><!--end-slide-->
+                    <!--**1***-->
+                    <div class="swiper-slide">
+                        <!--**box**-->
+                        <div class="team-box">
+                            <!--img-->
+                            <div class="team-img">
+                                <img alt="" src="images/c.jpg">
+                            </div>
+                            <!--text-->
+                            <div class="team-text">
+                                <strong>Dr. Ankit Pawar</strong>
+                                <span>Nuerologist</span>
+                            </div>
+                        </div>
+                    </div><!--end-slide-->
+                    <!--**1***-->
+                    <div class="swiper-slide">
+                        <!--**box**-->
+                        <div class="team-box">
+                            <!--img-->
+                            <div class="team-img">
+                                <img alt="" src="images/d.jpg">
+                            </div>
+                            <!--text-->
+                            <div class="team-text">
+                                <strong>Dr. Preeti Sharma</strong>
+                                <span>Gynecologist</span>
+                            </div>
+                        </div>
+                    </div><!--end-slide-->
+                    <!--**1***-->
+                    <div class="swiper-slide">
+                        <!--**box**-->
+                        <div class="team-box">
+                            <!--img-->
+                            <div class="team-img">
+                                <img alt="" src="images/e.jpg">
+                            </div>
+                            <!--text-->
+                            <div class="team-text">
+                                <strong>Dr. Akash Das</strong>
+                                <span>Oncologist</span>
+                            </div>
+                        </div>
+                    </div><!--end-slide-->
+                </div><!--wrapper-end-->
+                <div class="swiper-pagination"></div>
+                </div><!--swiper-end-->
+            </div>
+    
+        </section><!--team-end-->
+    
+            <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <!--**comoany-box**-->
+            <div class="footer-company-box">
+                <!--logo-->
+                <a href="#" class="logo"> <img src="./Images/heartbeat.gif" alt="MediTech Logo" class="w-16 h-16 p-2 bg-gray rounded-full">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                  </img></a>
+                <img src="" alt="">
+                <!--details-->
+                <p>"We're not just a website; we're your virtual pharmacy without the long lines."</p>
+                <!--social-box-->
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>Main Link's</strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+            </div>
+            <!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>External Link's</strong>
+                <ul>
+                    <li><a href="#">Our Product's</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Trem's and Condition's</a></li>
+                </ul>
+            </div>
+            <!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>External Link's</strong>
+                <ul>
+                    <li><a href="#">Our Product's</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Trem's and Condition's</a></li>
+                </ul>
+            </div>
+            
+   
+        </div>
+
+        <!--**bottom**********************-->
+        <div class="footer-bottom">
+            <span class="footer-owner">MediTech</span>
+            <span class="copyright">&#169; Copyright 2024 -  MediTech</span>
+        </div>
+    </footer>
+    
+    
+    
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    
+        <!-- Initialize Swiper -->
+        <script>
+        /*-services--*/
+        var swiper = new Swiper(".mySwiperservices", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+              700: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 50,
+              },
+            },
+          });
+        /*--team--*/
+        var swiper = new Swiper(".mySwiperteam", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            breakpoints: {
+              560: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+              },
+              950: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+              1250: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+              },
+            },
+          });
+    </script>
+
+</body>
+</html>

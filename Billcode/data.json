@@ -1,0 +1,44 @@
+{
+    "123ABC": {
+        "user": "Bhuvnesh Verma",
+        "email": "iwillnottell@hmmm.com",
+        "products": [
+            {
+                "name": "Becozym C Forte",
+                "image": "./Medi/med1.jpg"
+            },
+            {
+                "name": "Multvit",
+                "image": "./Medi/med2.jpg"
+            }
+        ]
+    },
+    "456DEF": {
+        "user": "Ashish Chakradhar",
+        "email": "iwillnottell@hmmm.com",
+        "products": [
+            {
+                "name": "Zinc Complex",
+                "image": "./Medi/med3.jpg"
+            },
+            {
+                "name": "TonoKD",
+                "image": "./Medi/med4.jpg"
+            }
+        ]
+    },
+    "789GHI": {
+        "user": "Abhay Mishra",
+        "email": "iwillnottell@hmmm.com",
+        "products": [
+            {
+                "name": "Livogen",
+                "image": "./Medi/med5.jpg"
+            },
+            {
+                "name": "Multivitamin",
+                "image": "./Medi/med6.jpg"
+            }
+        ]
+    }
+}

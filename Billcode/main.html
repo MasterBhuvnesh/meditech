@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referral Code Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>BillCode Checker</h1>
+    <label for="referralCode">Enter Bill Code:</label>
+    <input type="text" id="referralCode" placeholder="Enter code">
+    <button onclick="checkReferralCode()">Check Code</button>
+    <div id="result"></div>
+    <div id="productList">
+        <h2>Available Products:</h2>
+        <ul id="products"></ul>
+        <a href="./addr.html"><button id="buyButton" onclick="buyProduct()">Buy Now</button></a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
